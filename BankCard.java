@@ -48,12 +48,10 @@ public class BankCard
         }
         else
         {
-            //System.out.println("Card ID:"+this.cardId);
-            //System.out.println("Name of Client:"+this.clientName);
             System.out.println("Issuer Bank:"+this.issuerBank);
             System.out.println("Bank Account:"+this.bankAccount);
             System.out.println("Balance Amount:"+this.balanceAmount);
-            //System.out.println("");
+
         }
     }
 }

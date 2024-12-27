@@ -3,7 +3,6 @@
 {
     //Attributes
     private int pinNumber;
-    //private int cardId;
     private double withdrawalAmount;
     private String dateOfWithdrawal;
     private boolean hasWithdrawn;

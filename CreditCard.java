@@ -54,15 +54,6 @@ public class CreditCard extends BankCard
         }
     }
 
-    //public void cancelCreditCard() {
-        //if (super.getBalanceAmount() == 0 && this.interestRate == 0) {
-          //  this.cvcNumber = 0;
-            //this.creditLimit = 0;
-            //this.gracePeriod = 0;
-            //this.isGranted = false;
-        //}
-    //}
-
     public void cancelCreditCard() {
         if (isGranted) {
             this.cvcNumber = 0;
